@@ -24,7 +24,8 @@ class BrieflyparserSpider(scrapy.Spider):
             for link in links:
                 yield scrapy.Request(link, callback=self.parse_by_alphabet)
                 
-    def parse_by_alphabet()
+    def parse_by_alphabet():
+         pass
     # def parse_page(self, response):
     #     try:
     #         for item in response.xpath('//article[@class="summary_box"]'):
